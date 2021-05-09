@@ -22,5 +22,5 @@ gmail_password = '**password**' #Sender email password
 ```python
 python3 Vaccine_Notifier.py
 ```
-6. Sample alert email fomat:
+6. Sample alert email fomat:\
 ![alt_text](https://github.com/shlsharma/Covid_Vaccine_Notifier_India/blob/main/Images/email.jpg)
