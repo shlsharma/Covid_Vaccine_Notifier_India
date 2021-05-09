@@ -40,7 +40,7 @@ while True:
     center_pincode = []
 
     for i in range(max_search_days):
-        print("Searched Completed for Date: "+str(today_date[:7])+"-{}".format(vax_date))
+        print("Search Completed for Date: "+str(today_date[:7])+"-{}".format(vax_date))
         slot_avaiable = False
         url = Request("https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id="+str(district_id)+"&amp;date="+str(vax_date)+"-05-2021",headers={'User-Agent': 'Mozilla/5.0'})
         html = urlopen(url, timeout=10).read()
