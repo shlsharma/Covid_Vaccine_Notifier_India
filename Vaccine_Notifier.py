@@ -95,5 +95,5 @@ while True:
             print('Mail_Sent!! Book your slot on cowin.gov.in')
             time.sleep(30)
         vax_date += 1
-        time.sleep(5)
-    time.sleep(30)
+        time.sleep(3.5)
+    time.sleep(0)
