@@ -27,4 +27,13 @@ python3 Vaccine_Notifier.py
 
 NOTE:
 1. Get the state id from this [public API](https://cdn-api.co-vin.in/api/v2/admin/location/states)
-2. Get the district id from this [public API](https://cdn-api.co-vin.in/api/v2/admin/location/districts/14)
+2. Put the state id number at the end of this link to get the district ids
+```python
+https://cdn-api.co-vin.in/api/v2/admin/location/districts/state_id_number
+```
+3. For Example State Id number is 14 then 
+```python
+https://cdn-api.co-vin.in/api/v2/admin/location/districts/14
+```
+4. Copy the above link with your state id and open on any browser to get your district id
+
