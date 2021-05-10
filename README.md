@@ -25,6 +25,6 @@ python3 Vaccine_Notifier.py
 6. Sample alert email fomat:\
 ![alt_text](https://github.com/shlsharma/Covid_Vaccine_Notifier_India/blob/main/Images/email.jpg)
 
-NOTE:\
+NOTE:
 1. Get the state id from this [public API](https://cdn-api.co-vin.in/api/v2/admin/location/states)
 2. Get the district id from this [public API](https://cdn-api.co-vin.in/api/v2/admin/location/districts/14)
