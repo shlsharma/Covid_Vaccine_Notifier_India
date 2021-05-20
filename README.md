@@ -13,6 +13,7 @@ pip3 install -r requirements.txt
 ```python
 age = 18 #Age 18 for (18-44) group and age 45 gor (45+) group
 district_id = 230 #Your District Id [Example - 230 for JAMMU]
+pincode = 180001 #Your Pincode
 max_search_days = 12 #Number of days - search region
 to_list = ['receiver_1@gmail.com','receiver_2@gmail.com']#receiver list
 gmail_user = 'sender' #Sender email account (DON'T ENTER @gmail.com)
