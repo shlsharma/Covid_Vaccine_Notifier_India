@@ -21,7 +21,9 @@ gmail_password = '**password**' #Sender email password
 ```
 5. Run the main script
 ```python
-python3 Vaccine_Notifier.py
+python Vaccine_Notifier_by_Pincode.py
+-----------------or------------------
+python Vaccine_Notifier_by_District.py
 ```
 6. Sample alert email fomat:\
 ![alt_text](https://github.com/shlsharma/Covid_Vaccine_Notifier_India/blob/main/Images/email.jpg)
